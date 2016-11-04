@@ -60,6 +60,9 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
+                        <a href="#houses">Viviendas</a>
+                    </li>
+                    <li>
                         <a href="#users">Users</a>
                     </li>
                     <li>
@@ -96,6 +99,10 @@
       <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular-route.js"></script>
       <script src="<c:url value='/static/js/app.js' />"></script>
       <script src="<c:url value='/static/js/service/user_service.js' />"></script>
+      <script src="<c:url value='/static/js/service/house_service.js' />"></script>
+      <script src="<c:url value='/static/js/service/about_service.js' />"></script>
       <script src="<c:url value='/static/js/controller/user_controller.js' />"></script>
+      <script src="<c:url value='/static/js/controller/house_controller.js' />"></script>
+      <script src="<c:url value='/static/js/controller/about_controller.js' />"></script>
   </body>
 </html>

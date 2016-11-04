@@ -11,6 +11,12 @@ App.config(function($routeProvider) {
             templateUrl : 'static/pages/users.html',
             controller  : 'UserController'
         })
+        
+        //route for the users page
+        .when('/houses', {
+            templateUrl : 'static/pages/houses.html',
+            controller  : 'HouseController'
+        })
 
         // route for the about page
         .when('/about', {
